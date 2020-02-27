@@ -1,0 +1,23 @@
+@import'nav.css';
+
+.navigation {
+    margin: 1em;
+    background-color: black;
+    overflow: hidden;
+}
+
+.navigation__link {
+    padding: 0 1em 0 1em;
+}
+.navigation a {
+    float: left;
+    color:lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
